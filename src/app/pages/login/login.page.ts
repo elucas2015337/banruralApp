@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
+import { NumbersOnlyDirective } from 'src/app/directives/numbers-only.directive';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -13,6 +14,7 @@ import { AuthService } from 'src/app/services/auth.service';
     CommonModule,
     IonicModule,
     FormsModule,
+    NumbersOnlyDirective
     // otros módulos o componentes que uses
   ],
 })
